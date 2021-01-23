@@ -61,6 +61,7 @@ public class Milestone1 {
         writeJsonFile(jsonFile, prettyJson);
 	}
 	
+	
 	// 2. Read XML file into JSON object
 	// extract some smaller sub-object inside, given a certain path
 	// write that smaller object to a JSON file
@@ -78,61 +79,45 @@ public class Milestone1 {
         writeJsonFile(jsonFile, jsonText);
 	}
 	
+	
 	// 4. Read an XML file into JSON object
 	// add prefix "swe262_" to all of its keys
 	public static void xmlToJsonPrefix(JSONObject rawJson, String jsonFile) {
-		System.out.println(rawJson.toMap().entrySet());
-		System.out.println(rawJson.toMap().entrySet().size());
-//		System.out.println(rawJson.length());
-		
 		Map<String, Object> originalMap = rawJson.toMap();
-//		System.out.println(originalMap.size());
-        Map<String, Object> newMap = originalMap;
-
-        for (Map.Entry entry : originalMap.entrySet()) {
-//        	System.out.println("1 "+entry);
-            String newKey = "swe262_" + entry.getKey();
-            newMap.put(newKey, entry.getValue());
-        }
-//        System.out.println(newMap);
-//		Object newJson = addPrefix(rawJson);
-//		String jsonText = newJson.toString();
-//		writeJsonFile(jsonFile, jsonText);
+        Map<String, Object> newMap = addPrefix(originalMap);
+        JSONObject newJson = new JSONObject(newMap);
+		String jsonText = newJson.toString(PRETTY_PRINT_INDENT_FACTOR);
+		System.out.println(jsonText);
+		writeJsonFile(jsonFile, jsonText);
 	}
 	
 	// recursively traverse each key
-	public static Object addPrefix(JSONObject rawJson) {
-		Set<Map.Entry<String,Object>> currentSet = rawJson.toMap().entrySet();
-		// base case - 
+	public static Map<String, Object> addPrefix(Map<String, Object> map) {
+		Set<Map.Entry<String,Object>> currentSet = map.entrySet();
+		// base case 
 		if (currentSet.size() == 1 && 
 				!(currentSet.iterator().next().getValue() instanceof JSONObject) && 
 				!(currentSet.iterator().next().getValue() instanceof JSONArray)){
-			return modifyKey(rawJson);
+			modifyKey(map);
 		} else {
 			// recursion
-			Map<String, Object> originalMap = rawJson.toMap();
-	        Map<String, Object> newMap = originalMap;
-
-	        for (Map.Entry entry : originalMap.entrySet()) {
-	            String newKey = "swe262_" + entry.getKey();
-	            newMap.put(newKey, entry.getValue());
-	        }
-	        
-	        addPrefix(new JSONObject(newMap));
-	        return addPrefix(rawJson);
+			for (String key : map.keySet()) {
+				addPrefix(map);
+				modifyKey(map);
+			}
 		}
+		return map;
 	}
 	
-	public static JSONObject modifyKey(JSONObject rawJson) {
-		Map<String, Object> originalMap = rawJson.toMap();
-        Map<String, Object> newMap = originalMap;
-
-        for (Map.Entry entry : originalMap.entrySet()) {
+	public static void modifyKey(Map<String, Object> map) {
+        for (Map.Entry entry : map.entrySet()) {
             String newKey = "swe262_" + entry.getKey();
-            newMap.put(newKey, entry.getValue());
+            Object value = entry.getValue();
+            map.remove(entry.getKey());
+            map.put(newKey, value);
         }
-        return new JSONObject(newMap);
 	}
+	
 	
 	// 5. Read an XML file into JSON object
 	// replace as sub-object on a certain key path with another JSON object
@@ -190,30 +175,30 @@ public class Milestone1 {
 		JSONObject rawJson = readXmlFileToJsonObject(xmlFile);
 		
 		// Task1
-//		System.out.println("Task1");
-//		String jsonFile1 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "1.json";
-//        xmlToJson(rawJson, jsonFile1);
-//        
-//        // User provides 1 input - Task2 
-//        // User provides 2 inputs - Task3
-//        if (args.length < 2) {
-//        	System.out.println("Task2");
-//	        String jsonFile2 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "2.json";
-//	        String keyPathQuery = "/catalog/book";
-//	        xmlToSubJson(rawJson, jsonFile2, keyPathQuery);
-//        } else if (args.length == 2) {
-//        	System.out.println("Task3");
-//        	String jsonFile3 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "3.json";
-//        	String keyPathQuery = args[1];
-//        	xmlToSubJson(rawJson, jsonFile3, keyPathQuery);
-//        } else {
-//        	throw new IllegalArgumentException("This program can only accept 1 or 2 arguments.");
-//        }
+		System.out.println("Task1");
+		String jsonFile1 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "1.json";
+        xmlToJson(rawJson, jsonFile1);
         
-        // Task4
-//        System.out.println("Task4");
-//    	String jsonFile4 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "4.json";
-//        xmlToJsonPrefix(rawJson, jsonFile4);
+        // User provides 1 input - Task2 
+        // User provides 2 inputs - Task3
+        if (args.length < 2) {
+        	System.out.println("Task2");
+	        String jsonFile2 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "2.json";
+	        String keyPathQuery = "/catalog/book";
+	        xmlToSubJson(rawJson, jsonFile2, keyPathQuery);
+        } else if (args.length == 2) {
+        	System.out.println("Task3");
+        	String jsonFile3 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "3.json";
+        	String keyPathQuery = args[1];
+        	xmlToSubJson(rawJson, jsonFile3, keyPathQuery);
+        } else {
+        	throw new IllegalArgumentException("This program can only accept 1 or 2 arguments.");
+        }
+        
+        //Task4
+        System.out.println("Task4");
+    	String jsonFile4 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "4.json";
+        xmlToJsonPrefix(rawJson, jsonFile4);
 
         // Task5
         System.out.println("Task5");
@@ -222,8 +207,6 @@ public class Milestone1 {
         xmlToJsonReplaceSub(rawJson, jsonFile5, keyPath);
 	}
 }
-
-// javac -d bin src/milestone1/Milestone1.java
 
 
 
