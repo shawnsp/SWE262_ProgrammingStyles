@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8691f927-36de-407b-b883-329948229ebd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JSON-java/src/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON-java/src/test/java/test_262P/XMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON-java/src/test/java/test_262P/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON-java_262P/src/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON-java_262P/src/test/java/test_262P/XMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON-java_262P/src/test/java/test_262P/books.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-java" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-java/src/main/java/org/json/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-java/src/main/java/org/json/XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON-java_262P/src/main/java/org/json/XML.java" beforeDir="false" afterPath="$PROJECT_DIR$/JSON-java_262P/src/main/java/org/json/XML.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1nxjGndXdpt3dxvYY7IsYeLDAwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8691f927-36de-407b-b883-329948229ebd" name="Default Changelist" comment="" />
+      <created>1612338543174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612338543174</updated>
+      <workItem from="1612338544309" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
