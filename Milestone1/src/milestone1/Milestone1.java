@@ -184,7 +184,7 @@ public class Milestone1 {
         if (args.length < 2) {
         	System.out.println("Task2");
 	        String jsonFile2 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "2.json";
-	        String keyPathQuery = "/catalog/book";
+	        String keyPathQuery = "/catalog/book/1";
 	        xmlToSubJson(rawJson, jsonFile2, keyPathQuery);
         } else if (args.length == 2) {
         	System.out.println("Task3");
