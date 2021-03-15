@@ -5,54 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aaeebed-3dfe-4fa5-9c48-e1395895c5e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Milestone1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Milestone2345/.idea/Milestone2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/Week4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/src/Nine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/src/Ten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/Week5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/deploy/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/framework/Framework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/framework/TfFreqs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/wordFreqs/WordFreqs1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/wordFreqs/WordFreqs2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/words/Words1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week5/src/words/Words2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6/Week6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6/src/TwentyEight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6/src/TwentySix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week7/Week7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week7/src/TwentyFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week7/src/TwentyOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week7/src/TwentyTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week8/Week8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week8/src/Thirty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week8/src/ThirtyTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week8/src/TwentyNine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week9/Week9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week9/apl-tf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Milestone1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Milestone1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/milestone1/Milestone1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books2.json" beforeDir="false" afterPath="$PROJECT_DIR$/books2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books4.json" beforeDir="false" afterPath="$PROJECT_DIR$/books4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books5.json" beforeDir="false" afterPath="$PROJECT_DIR$/books5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/milestone1/Milestone1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Milestone2/.idea/Milestone2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Milestone2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Milestone2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Milestone2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Milestone2/JSON-java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Milestone2/JSON-java_262P" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Milestone1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Milestone1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Milestone1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Milestone1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Milestone2345/JSON-java" beforeDir="false" afterPath="$PROJECT_DIR$/../Milestone2345/JSON-java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615619747028</updated>
-      <workItem from="1615619749166" duration="38426000" />
+      <workItem from="1615619749166" duration="40179000" />
     </task>
     <servers />
   </component>

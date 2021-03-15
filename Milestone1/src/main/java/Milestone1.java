@@ -213,6 +213,9 @@ public class Milestone1 {
 		args = new String[2];
 		args[0] = "./books.xml";
 		args[1] = "/catalog/book/3";
+
+//		args[0] = "./albums.xml";
+//		args[1] = "/CATALOG/CD/3";
 		String xmlFile = args[0];
 //		String xmlFile = "./books.xml";
 
@@ -244,7 +247,7 @@ public class Milestone1 {
         //Task5
         System.out.println("Task5");
         String jsonFile5 = xmlFile.substring(0, xmlFile.lastIndexOf(".")) + "5.json";
-        String keyPath = "/catalog/book/1";
+        String keyPath = args[1];
         xmlToJsonReplaceSub(xmlFile, jsonFile5, keyPath);
 	}
 }

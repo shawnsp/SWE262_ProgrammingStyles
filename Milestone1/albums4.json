@@ -1,0 +1,42 @@
+{"swe262_CATALOG": {"swe262_CD": [
+    {
+        "swe262_PRICE": 10.9,
+        "swe262_COMPANY": "tseries",
+        "swe262_ARTIST": "Arijit singh",
+        "swe262_COUNTRY": "India",
+        "swe262_YEAR": 2018,
+        "swe262_TITLE": "dill diya galla"
+    },
+    {
+        "swe262_PRICE": 9.9,
+        "swe262_COMPANY": "Records",
+        "swe262_ARTIST": "Atif Aslam",
+        "swe262_COUNTRY": "Uk",
+        "swe262_YEAR": 2015,
+        "swe262_TITLE": "Saiyara"
+    },
+    {
+        "swe262_PRICE": 9.9,
+        "swe262_COMPANY": "radio",
+        "swe262_ARTIST": "Sonu nigam",
+        "swe262_COUNTRY": "india",
+        "swe262_YEAR": 2019,
+        "swe262_TITLE": "Khairiyat"
+    },
+    {
+        "swe262_PRICE": 10.2,
+        "swe262_COMPANY": "Virgin records",
+        "swe262_ARTIST": "Amir Khan",
+        "swe262_COUNTRY": "pak",
+        "swe262_YEAR": 2012,
+        "swe262_TITLE": "all is well"
+    },
+    {
+        "swe262_PRICE": 9.9,
+        "swe262_COMPANY": "Eros",
+        "swe262_ARTIST": "kk",
+        "swe262_COUNTRY": "india",
+        "swe262_YEAR": 2014,
+        "swe262_TITLE": "rockstar"
+    }
+]}}

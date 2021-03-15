@@ -1,0 +1,43 @@
+{"CATALOG": {"CD": [
+    {
+        "ARTIST": "Arijit singh",
+        "TITLE": "dill diya galla",
+        "COUNTRY": "India",
+        "PRICE": 10.9,
+        "YEAR": 2018,
+        "COMPANY": "tseries"
+    },
+    {
+        "ARTIST": "Atif Aslam",
+        "TITLE": "Saiyara",
+        "COUNTRY": "Uk",
+        "PRICE": 9.9,
+        "YEAR": 2015,
+        "COMPANY": "Records"
+    },
+    {
+        "ARTIST": "Sonu nigam",
+        "TITLE": "Khairiyat",
+        "COUNTRY": "india",
+        "PRICE": 9.9,
+        "YEAR": 2019,
+        "COMPANY": "radio"
+    },
+    {
+        "author": "NA",
+        "price": "NA",
+        "genre": "NA",
+        "description": "NA",
+        "id": "NA",
+        "title": "NA",
+        "publish_date": "NA"
+    },
+    {
+        "ARTIST": "kk",
+        "TITLE": "rockstar",
+        "COUNTRY": "india",
+        "PRICE": 9.9,
+        "YEAR": 2014,
+        "COMPANY": "Eros"
+    }
+]}}

@@ -9,13 +9,13 @@
         "publish_date": "2000-10-01"
     },
     {
-        "author": "NA",
-        "price": "NA",
-        "genre": "NA",
-        "description": "NA",
-        "id": "NA",
-        "title": "NA",
-        "publish_date": "NA"
+        "author": "Ralls, Kim",
+        "price": 5.95,
+        "genre": "Fantasy",
+        "description": "A former architect battles corporate zombies, \n      an evil sorceress, and her own childhood to become queen \n      of the world.",
+        "id": "bk102",
+        "title": "Midnight Rain",
+        "publish_date": "2000-12-16"
     },
     {
         "author": "Corets, Eva",
@@ -27,13 +27,13 @@
         "publish_date": "2000-11-17"
     },
     {
-        "author": "Corets, Eva",
-        "price": 5.95,
-        "genre": "Fantasy",
-        "description": "In post-apocalypse England, the mysterious \n      agent known only as Oberon helps to create a new life \n      for the inhabitants of London. Sequel to Maeve \n      Ascendant.",
-        "id": "bk104",
-        "title": "Oberon's Legacy",
-        "publish_date": "2001-03-10"
+        "author": "NA",
+        "price": "NA",
+        "genre": "NA",
+        "description": "NA",
+        "id": "NA",
+        "title": "NA",
+        "publish_date": "NA"
     },
     {
         "author": "Corets, Eva",
