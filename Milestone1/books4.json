@@ -1,110 +1,110 @@
-{"swe262_catalog": {"book": [
+{"swe262_catalog": {"swe262_book": [
     {
-        "author": "Gambardella, Matthew",
-        "price": 44.95,
-        "genre": "Computer",
-        "description": "An in-depth look at creating applications \n      with XML.",
-        "id": "bk101",
-        "title": "XML Developer's Guide",
-        "publish_date": "2000-10-01"
+        "swe262_price": 44.95,
+        "swe262_genre": "Computer",
+        "swe262_author": "Gambardella, Matthew",
+        "swe262_publish_date": "2000-10-01",
+        "swe262_description": "An in-depth look at creating applications \n      with XML.",
+        "swe262_title": "XML Developer's Guide",
+        "swe262_id": "bk101"
     },
     {
-        "author": "Ralls, Kim",
-        "price": 5.95,
-        "genre": "Fantasy",
-        "description": "A former architect battles corporate zombies, \n      an evil sorceress, and her own childhood to become queen \n      of the world.",
-        "id": "bk102",
-        "title": "Midnight Rain",
-        "publish_date": "2000-12-16"
+        "swe262_price": 5.95,
+        "swe262_genre": "Fantasy",
+        "swe262_author": "Ralls, Kim",
+        "swe262_publish_date": "2000-12-16",
+        "swe262_description": "A former architect battles corporate zombies, \n      an evil sorceress, and her own childhood to become queen \n      of the world.",
+        "swe262_title": "Midnight Rain",
+        "swe262_id": "bk102"
     },
     {
-        "author": "Corets, Eva",
-        "price": 5.95,
-        "genre": "Fantasy",
-        "description": "After the collapse of a nanotechnology \n      society in England, the young survivors lay the \n      foundation for a new society.",
-        "id": "bk103",
-        "title": "Maeve Ascendant",
-        "publish_date": "2000-11-17"
+        "swe262_price": 5.95,
+        "swe262_genre": "Fantasy",
+        "swe262_author": "Corets, Eva",
+        "swe262_publish_date": "2000-11-17",
+        "swe262_description": "After the collapse of a nanotechnology \n      society in England, the young survivors lay the \n      foundation for a new society.",
+        "swe262_title": "Maeve Ascendant",
+        "swe262_id": "bk103"
     },
     {
-        "author": "Corets, Eva",
-        "price": 5.95,
-        "genre": "Fantasy",
-        "description": "In post-apocalypse England, the mysterious \n      agent known only as Oberon helps to create a new life \n      for the inhabitants of London. Sequel to Maeve \n      Ascendant.",
-        "id": "bk104",
-        "title": "Oberon's Legacy",
-        "publish_date": "2001-03-10"
+        "swe262_price": 5.95,
+        "swe262_genre": "Fantasy",
+        "swe262_author": "Corets, Eva",
+        "swe262_publish_date": "2001-03-10",
+        "swe262_description": "In post-apocalypse England, the mysterious \n      agent known only as Oberon helps to create a new life \n      for the inhabitants of London. Sequel to Maeve \n      Ascendant.",
+        "swe262_title": "Oberon's Legacy",
+        "swe262_id": "bk104"
     },
     {
-        "author": "Corets, Eva",
-        "price": 5.95,
-        "genre": "Fantasy",
-        "description": "The two daughters of Maeve, half-sisters, \n      battle one another for control of England. Sequel to \n      Oberon's Legacy.",
-        "id": "bk105",
-        "title": "The Sundered Grail",
-        "publish_date": "2001-09-10"
+        "swe262_price": 5.95,
+        "swe262_genre": "Fantasy",
+        "swe262_author": "Corets, Eva",
+        "swe262_publish_date": "2001-09-10",
+        "swe262_description": "The two daughters of Maeve, half-sisters, \n      battle one another for control of England. Sequel to \n      Oberon's Legacy.",
+        "swe262_title": "The Sundered Grail",
+        "swe262_id": "bk105"
     },
     {
-        "author": "Randall, Cynthia",
-        "price": 4.95,
-        "genre": "Romance",
-        "description": "When Carla meets Paul at an ornithology \n      conference, tempers fly as feathers get ruffled.",
-        "id": "bk106",
-        "title": "Lover Birds",
-        "publish_date": "2000-09-02"
+        "swe262_price": 4.95,
+        "swe262_genre": "Romance",
+        "swe262_author": "Randall, Cynthia",
+        "swe262_publish_date": "2000-09-02",
+        "swe262_description": "When Carla meets Paul at an ornithology \n      conference, tempers fly as feathers get ruffled.",
+        "swe262_title": "Lover Birds",
+        "swe262_id": "bk106"
     },
     {
-        "author": "Thurman, Paula",
-        "price": 4.95,
-        "genre": "Romance",
-        "description": "A deep sea diver finds true love twenty \n      thousand leagues beneath the sea.",
-        "id": "bk107",
-        "title": "Splish Splash",
-        "publish_date": "2000-11-02"
+        "swe262_price": 4.95,
+        "swe262_genre": "Romance",
+        "swe262_author": "Thurman, Paula",
+        "swe262_publish_date": "2000-11-02",
+        "swe262_description": "A deep sea diver finds true love twenty \n      thousand leagues beneath the sea.",
+        "swe262_title": "Splish Splash",
+        "swe262_id": "bk107"
     },
     {
-        "author": "Knorr, Stefan",
-        "price": 4.95,
-        "genre": "Horror",
-        "description": "An anthology of horror stories about roaches,\n      centipedes, scorpions  and other insects.",
-        "id": "bk108",
-        "title": "Creepy Crawlies",
-        "publish_date": "2000-12-06"
+        "swe262_price": 4.95,
+        "swe262_genre": "Horror",
+        "swe262_author": "Knorr, Stefan",
+        "swe262_publish_date": "2000-12-06",
+        "swe262_description": "An anthology of horror stories about roaches,\n      centipedes, scorpions  and other insects.",
+        "swe262_title": "Creepy Crawlies",
+        "swe262_id": "bk108"
     },
     {
-        "author": "Kress, Peter",
-        "price": 6.95,
-        "genre": "Science Fiction",
-        "description": "After an inadvertant trip through a Heisenberg\n      Uncertainty Device, James Salway discovers the problems \n      of being quantum.",
-        "id": "bk109",
-        "title": "Paradox Lost",
-        "publish_date": "2000-11-02"
+        "swe262_price": 6.95,
+        "swe262_genre": "Science Fiction",
+        "swe262_author": "Kress, Peter",
+        "swe262_publish_date": "2000-11-02",
+        "swe262_description": "After an inadvertant trip through a Heisenberg\n      Uncertainty Device, James Salway discovers the problems \n      of being quantum.",
+        "swe262_title": "Paradox Lost",
+        "swe262_id": "bk109"
     },
     {
-        "author": "O'Brien, Tim",
-        "price": 36.95,
-        "genre": "Computer",
-        "description": "Microsoft's .NET initiative is explored in \n      detail in this deep programmer's reference.",
-        "id": "bk110",
-        "title": "Microsoft .NET: The Programming Bible",
-        "publish_date": "2000-12-09"
+        "swe262_price": 36.95,
+        "swe262_genre": "Computer",
+        "swe262_author": "O'Brien, Tim",
+        "swe262_publish_date": "2000-12-09",
+        "swe262_description": "Microsoft's .NET initiative is explored in \n      detail in this deep programmer's reference.",
+        "swe262_title": "Microsoft .NET: The Programming Bible",
+        "swe262_id": "bk110"
     },
     {
-        "author": "O'Brien, Tim",
-        "price": 36.95,
-        "genre": "Computer",
-        "description": "The Microsoft MSXML3 parser is covered in \n      detail, with attention to XML DOM interfaces, XSLT processing, \n      SAX and more.",
-        "id": "bk111",
-        "title": "MSXML3: A Comprehensive Guide",
-        "publish_date": "2000-12-01"
+        "swe262_price": 36.95,
+        "swe262_genre": "Computer",
+        "swe262_author": "O'Brien, Tim",
+        "swe262_publish_date": "2000-12-01",
+        "swe262_description": "The Microsoft MSXML3 parser is covered in \n      detail, with attention to XML DOM interfaces, XSLT processing, \n      SAX and more.",
+        "swe262_title": "MSXML3: A Comprehensive Guide",
+        "swe262_id": "bk111"
     },
     {
-        "author": "Galos, Mike",
-        "price": 49.95,
-        "genre": "Computer",
-        "description": "Microsoft Visual Studio 7 is explored in depth,\n      looking at how Visual Basic, Visual C++, C#, and ASP+ are \n      integrated into a comprehensive development \n      environment.",
-        "id": "bk112",
-        "title": "Visual Studio 7: A Comprehensive Guide",
-        "publish_date": "2001-04-16"
+        "swe262_price": 49.95,
+        "swe262_genre": "Computer",
+        "swe262_author": "Galos, Mike",
+        "swe262_publish_date": "2001-04-16",
+        "swe262_description": "Microsoft Visual Studio 7 is explored in depth,\n      looking at how Visual Basic, Visual C++, C#, and ASP+ are \n      integrated into a comprehensive development \n      environment.",
+        "swe262_title": "Visual Studio 7: A Comprehensive Guide",
+        "swe262_id": "bk112"
     }
 ]}}

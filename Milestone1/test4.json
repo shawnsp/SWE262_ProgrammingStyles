@@ -1,0 +1,9 @@
+{"swe262_book": {
+    "author": "Gambardella, Matthew",
+    "price": 44.95,
+    "genre": "Computer",
+    "description": "An in-depth look at creating applications\n        with XML.",
+    "id": "bk101",
+    "title": "XML Developer's Guide",
+    "publish_date": "2000-10-01"
+}}

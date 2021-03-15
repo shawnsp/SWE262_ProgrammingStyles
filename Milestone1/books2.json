@@ -1,1 +1,9 @@
-{"author":"Ralls, Kim","price":5.95,"genre":"Fantasy","description":"A former architect battles corporate zombies, \n      an evil sorceress, and her own childhood to become queen \n      of the world.","id":"bk102","title":"Midnight Rain","publish_date":"2000-12-16"}
+{
+    "author": "Ralls, Kim",
+    "price": 5.95,
+    "genre": "Fantasy",
+    "description": "A former architect battles corporate zombies, \n      an evil sorceress, and her own childhood to become queen \n      of the world.",
+    "id": "bk102",
+    "title": "Midnight Rain",
+    "publish_date": "2000-12-16"
+}
