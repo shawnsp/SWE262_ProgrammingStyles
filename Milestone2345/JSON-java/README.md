@@ -1,6 +1,7 @@
 Changes in src folder:
 
 -------------- Milestone 2 -----------------
+
 added two methods at src/main/java/org/json/XML.java
 public static JSONObject toJSONObject(Reader reader, JSONPointer path)
 public static JSONObject toJSONObject(Reader reader, JSONPointer path, JSONObject replacement)
@@ -18,6 +19,7 @@ which does, inside the library, the same thing that task 5 of milestone 1 did in
 
 
 -------------- Milestone 3 -----------------
+
 added method at src/main/java/org/json/XML.java
 public static JSONObject toJSONObject(Reader reader, Function<String, String> keyTransformer)
 
@@ -37,6 +39,7 @@ which does, inside the library, the kinds of things you did in task 4 of milesto
 
 
 -------------- Milestone 4 -----------------
+
 added method at src/main/java/org/json/JSONObject.java
 added Junit tests at src/test/java/test_262P/JSONObjectStreamTest.java
 
@@ -52,6 +55,7 @@ These stream operations apply to JSONObject, and are started by transforming tho
 
 
 -------------- Milestone 5 -----------------
+
 added method at src/main/java/org/json/XML.java
 added Junit tests at src/test/java/test_262P/XMLTest.java
 
@@ -61,6 +65,8 @@ XML.toJSONObject(aReader, (JSONObject jo) -> {jo.write(aWriter);}, (Exception e)
 Write unite tests for your new function(s)
 
 ------------------------------------  END ----------------------------------
+
+
 
 
 JSON in Java [package org.json]
