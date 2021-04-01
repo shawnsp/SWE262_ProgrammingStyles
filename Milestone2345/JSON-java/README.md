@@ -1,6 +1,6 @@
 Changes in src folder:
 
--------------- Milestone 2 -----------------
+## Milestone 2 
 
 added two methods at src/main/java/org/json/XML.java
 public static JSONObject toJSONObject(Reader reader, JSONPointer path)
@@ -18,7 +18,7 @@ which does, inside the library, the same thing that task 2 of milestone 1 did in
 which does, inside the library, the same thing that task 5 of milestone 1 did in client code, before writing to disk. Are there any possible performance gains from doing this inside the library? If so, implement them in your version of the library.
 
 
--------------- Milestone 3 -----------------
+## Milestone 3 
 
 added method at src/main/java/org/json/XML.java
 public static JSONObject toJSONObject(Reader reader, Function<String, String> keyTransformer)
@@ -38,7 +38,7 @@ which does, inside the library, the kinds of things you did in task 4 of milesto
 "foo" --> "oof"
 
 
--------------- Milestone 4 -----------------
+## Milestone 4
 
 added method at src/main/java/org/json/JSONObject.java
 added Junit tests at src/test/java/test_262P/JSONObjectStreamTest.java
@@ -54,7 +54,7 @@ obj.toStream().filter(node -> node with certain properties).forEach(node -> do s
 These stream operations apply to JSONObject, and are started by transforming those objects into streams with the new toStream() method, that you should write. Given that XML and JSON are hierarchical structures, you need to think about the type of stream you want to support. E.g. top-level elements only, every element independent of nesting, etc. There can be many options. The critical thing here is that, unless the client code explicitly collects the data into an object, the data should simply flow in small parts to the next operation.
 
 
--------------- Milestone 5 -----------------
+## Milestone 5
 
 added method at src/main/java/org/json/XML.java
 added Junit tests at src/test/java/test_262P/XMLTest.java
