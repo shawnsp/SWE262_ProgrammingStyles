@@ -8,6 +8,14 @@ public static JSONObject toJSONObject(Reader reader, JSONPointer path, JSONObjec
 added Junit tests at src/test/java/test_262P/XMLTest.java
 run XMLTest.java
 
+1. Add an overloaded static method to the XML class with the signature 
+   static JSONObject toJSONObject(Reader reader, JSONPointer path) 
+which does, inside the library, the same thing that task 2 of milestone 1 did in client code, before writing to disk. Being this done inside the library, you should be able to do it more efficiently. Specifically, you shouldn't need to read the entire XML file, as you can stop parsing it as soon as you find the object in question.
+
+2. Add an overloaded static method to the XML class with the signature
+   static JSONObject toJSONObject(Reader reader, JSONPointer path, JSONObject replacement) 
+which does, inside the library, the same thing that task 5 of milestone 1 did in client code, before writing to disk. Are there any possible performance gains from doing this inside the library? If so, implement them in your version of the library.
+
 
 -------------- Milestone 3 -----------------
 added method at src/main/java/org/json/XML.java
@@ -21,17 +29,38 @@ a Json object, except this method is done inside the library vs. milestone1 is d
 Transforming keys in the library can be done while parsing the XML files instead of recursively
 change the keys on an Json object.
 
+Add an overloaded static method to the XML class with the signature
+   static JSONObject toJSONObject(Reader reader, YOURTYPEHERE keyTransformer) 
+which does, inside the library, the kinds of things you did in task 4 of milestone 1, but in a much more general manner, for any transformations of keys. Specifically, YOURTYPEHERE should be a function (or "functional" in Java) that takes as input a String  denoting a key and returns another String that is the transformation of the key. For example:
+"foo" --> "swe262_foo" 
+"foo" --> "oof"
+
 
 -------------- Milestone 4 -----------------
 added method at src/main/java/org/json/JSONObject.java
 added Junit tests at src/test/java/test_262P/JSONObjectStreamTest.java
+
+Add streaming methods to the library that allow the client code to chain operations on JSON nodes. For example:
+
+// in client space
+JSONObject obj = XML.toJSONObject("<Books><book><title>AAA</title><author>ASmith</author></book><book><title>BBB</title><author>BSmith</author></book></Books>");
+obj.toStream().forEach(node -> do some transformation, possibly based on the path of the node);
+List<String> titles = obj.toStream().map(node -> extract value for key "title").collect(Collectors.toList());
+obj.toStream().filter(node -> node with certain properties).forEach(node -> do some transformation);
+
+These stream operations apply to JSONObject, and are started by transforming those objects into streams with the new toStream() method, that you should write. Given that XML and JSON are hierarchical structures, you need to think about the type of stream you want to support. E.g. top-level elements only, every element independent of nesting, etc. There can be many options. The critical thing here is that, unless the client code explicitly collects the data into an object, the data should simply flow in small parts to the next operation.
 
 
 -------------- Milestone 5 -----------------
 added method at src/main/java/org/json/XML.java
 added Junit tests at src/test/java/test_262P/XMLTest.java
 
+Add asynchronous methods to the library that allow the client code to proceed, while specifying what to do when the JSONObject becomes available. This is useful for when reading very large files. For example,
 
+XML.toJSONObject(aReader, (JSONObject jo) -> {jo.write(aWriter);}, (Exception e) -> {/* something went wrong */});
+Write unite tests for your new function(s)
+
+------------------------------------  END ----------------------------------
 
 
 JSON in Java [package org.json]
